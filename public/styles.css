@@ -1,7 +1,29 @@
-h1 {
+#title {
     color: #FFFF00;
 }
 
-body {
+html {
     background-color: black;
+}
+
+#create-idea {
+    background-color: black;
+    color: #FFFF00;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+textarea {
+    resize: none;
+}
+
+span {
+    color: white;
+}
+
+form {
+    display: none;
 }
