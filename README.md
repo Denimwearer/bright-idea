@@ -9,3 +9,5 @@ is a web application that allows users to create, edit, and delete ideas.
 - CSS
 - JavaScript
 - PostgreSQL
+
+![alt text](Bright-Idea.png)
