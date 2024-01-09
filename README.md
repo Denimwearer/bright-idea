@@ -10,4 +10,6 @@ is a web application that allows users to create, edit, and delete ideas.
 - JavaScript
 - PostgreSQL
 
+![alt text](Bright-Idea.png)
+![alt text](Bright-Idea.jpg)
 ![alt text](Bright-Idea.gif)
