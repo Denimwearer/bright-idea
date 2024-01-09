@@ -13,15 +13,17 @@
         <button id="create-idea">+</button>
     </header>
     <section>
-        <form id="idea-form">
-            <textarea name="idea" id="idea" maxlength="50" placeholder="type idea" required></textarea>
-            <div id="character-counter">
-                <span id="typed-characters">0</span>
-                <span>/</span>
-                <span id="max-characters">50</span>
-            </div>
-            <button id="save-button">Save Idea</button>
-        </form>
+        <div id="sectionDiv">
+            <form id="idea-form">
+                <textarea name="idea" id="idea" maxlength="255" placeholder="type idea" required></textarea>
+                <div id="character-counter">
+                    <span id="typed-characters">0</span>
+                    <span>/</span>
+                    <span id="max-characters">255</span>
+                </div>
+                <button id="save-button">Save Idea</button>
+            </form> 
+        </div>          
     </section>
     <div id="idea-container"></div>
     <script src="/node_modules/axios/dist/axios.min.js"></script>
